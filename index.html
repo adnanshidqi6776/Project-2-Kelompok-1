@@ -5,8 +5,422 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project 2 Kelompok 3</title>
+
+    <!-- download bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <!-- script js -->
+    <script src="features/features.js" defer></script>
+
+    <!--  -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="features/features.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <!-- section A -->
+
+    <!-- section B -->
+    <!-- features 1 -->
+    <div class="features1">
+      <div class="features1-top">
+        <div class="row row-cols-1 row-cols-md-2">
+          <!-- left -->
+          <div class="col col-topLeft d-flex align-items-center">
+            <div
+              class="features1-img d-flex align-items-center justify-content-center"
+            >
+              <img src="../assets/Icon-5.svg" alt="" />
+            </div>
+            <div class="features1-text">
+              <h3 class="m-0">Cloud Based</h3>
+              <p class="m-0">All your messages are always backed up.</p>
+            </div>
+          </div>
+
+          <!-- right -->
+          <div class="col col-topRight d-flex align-items-center">
+            <div
+              class="features1-img d-flex align-items-center justify-content-center"
+            >
+              <img src="../assets/Icon-4.svg" alt="" class="" />
+            </div>
+            <div class="features1-text">
+              <h3 class="m-0">Secured</h3>
+              <p class="m-0">All your messages are stored very securely.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- features 1 bottom -->
+      <div class="features1-bot">
+        <div class="card">
+          <div class="row g-5">
+            <!-- left -->
+            <div class="col-md-6 col-featuresLeft">
+              <!-- notif 1 -->
+              <div class="card card-message">
+                <div class="row g-0 messageFeature">
+                  <div
+                    class="col-3 d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="photoProfile d-flex align-items-center justify-content-center position-relative"
+                    >
+                      <p class="m-0">AJ</p>
+                      <span
+                        class="position-absolute top-0 start-100 bg-primary border border-light rounded-circle"
+                        >2
+                        <span class="visually-hidden">New alerts</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-7 d-flex align-items-center">
+                    <div class="card-body pt-0 pb-0">
+                      <h5 class="card-title">Andrew Johnson</h5>
+                      <p class="card-text">
+                        I have seen that you are availabl…
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <p id="messageTime">1:03 PM</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- notif 2 -->
+              <div class="card card-message-2">
+                <div class="row g-0 messageFeature">
+                  <div
+                    class="col-3 d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="photoProfile-2 d-flex align-items-center justify-content-center position-relative"
+                    >
+                      <p class="m-0">DL</p>
+                      <span
+                        class="position-absolute top-0 start-100 bg-primary border border-light rounded-circle"
+                        >1
+                        <span class="visually-hidden">New alerts</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-7 d-flex align-items-center">
+                    <div class="card-body pt-0 pb-0">
+                      <h5 class="card-title" style="font-size: 16px">
+                        Daniel Luke
+                      </h5>
+                      <p class="card-text-2" style="font-size: 12px">
+                        Would you like to have a meetin…
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <p style="font-size: 10px" id="messageTime2">5:27 AM</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- notif 3 -->
+              <div class="card card-message-3">
+                <div class="row g-0 messageFeature">
+                  <div
+                    class="col-3 d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="photoProfile-3 d-flex align-items-center justify-content-center position-relative"
+                    >
+                      <p class="m-0">AJ</p>
+                      <span
+                        class="position-absolute top-0 start-100 bg-primary border border-light rounded-circle"
+                        >4
+                        <span class="visually-hidden">New alerts</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-7 d-flex align-items-center">
+                    <div class="card-body pt-0 pb-0">
+                      <h5 class="card-title" style="font-size: 12px">
+                        Mark Clarke
+                      </h5>
+                      <p class="card-text-3" style="font-size: 9px">
+                        This was such a busy week. I can…
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <p style="font-size: 8px" id="messageTime3">1:03 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- right -->
+            <div class="col-md-6 col-featuresRight d-flex align-items-center">
+              <div class="card-body">
+                <h1 class="card-title mb-4">
+                  Use our app to send messages to your team
+                </h1>
+                <p class="card-text mb-5">
+                  We offer really easy communications for all businesses from
+                  small to large.
+                </p>
+                <div class="button-feature">
+                  <a href="#" class="btn btn-outline-primary btn-feature"
+                    >Get the app</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- features 2 -->
+    <div class="features2">
+      <div class="features2-top text-center">
+        <h1 class="mb-4">Transform your communications</h1>
+        <p class="w-50 m-auto">
+          Our mobile app is the only thing you need to change the way you
+          communicate with your team
+        </p>
+      </div>
+
+      <!-- features 2 bottom -->
+      <div class="features2-bot">
+        <div class="row">
+          <!-- left -->
+          <div class="col-md-5 d-flex align-items-center">
+            <div class="features2-left">
+              <div class="card card-message-4 me-0 mb-4">
+                <div class="row g-0 messageFeature">
+                  <div
+                    class="col-3 d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="photoProfile-2 d-flex align-items-center justify-content-center"
+                    >
+                      <img src="../assets/Shape.svg" alt="save" />
+                    </div>
+                  </div>
+                  <div class="col-9 d-flex align-items-center">
+                    <div class="card-body pt-0 pb-0">
+                      <h5 class="card-title" style="font-size: 16px">
+                        Message Saved
+                      </h5>
+                      <p class="card-text-2 mb-0" style="font-size: 12px">
+                        You have successfully saved this message
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="card-pesan">
+                <div
+                  class="card-body feature-file d-flex align-items-center justify-content-center"
+                >
+                  <img src="../assets/Icon-1.svg" alt="file" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right -->
+          <div class="col-md-7 features2-right">
+            <!-- line 1 -->
+            <div class="line-1 mb-4">
+              <div
+                class="card-body feature-file d-flex align-items-center justify-content-center"
+                style="margin-right: 24px"
+              >
+                <img src="../assets/Icon.svg" alt="file" />
+              </div>
+
+              <!-- message feature 2 -->
+              <div class="card card-message-4">
+                <div class="row g-0 messageFeature">
+                  <div
+                    class="col-3 d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="photoProfile-2 d-flex align-items-center justify-content-center position-relative"
+                    >
+                      <p class="m-0">SB</p>
+                      <span
+                        class="position-absolute top-0 start-100 bg-primary border border-light rounded-circle"
+                        >1
+                        <span class="visually-hidden">New alerts</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-7 d-flex align-items-center">
+                    <div class="card-body pt-0 pb-0">
+                      <h5 class="card-title" style="font-size: 16px">
+                        Spencer Brooks
+                      </h5>
+                      <p class="card-text-2 mb-0" style="font-size: 12px">
+                        Have you seen the project requi…
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <p style="font-size: 10px" id="messageTime4">5:27 AM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- line 2 -->
+            <div class="line-2 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card mb-3">
+                    <div class="row">
+                      <div class="col-3">
+                        <div
+                          class="card-body feature-cal d-flex align-items-center justify-content-center"
+                        >
+                          <img src="../assets/Shape-1.svg" alt="file" />
+                        </div>
+                      </div>
+                      <div class="col-9 d-flex align-items-center">
+                        <div class="card-body pt-0 pb-0 pe-0">
+                          <h5 class="card-title" style="font-size: 16px">
+                            Sales Meeting
+                          </h5>
+                          <p
+                            class="card-text-2 mb-0"
+                            style="font-size: 12px"
+                            id="messageTime5"
+                          >
+                            10:30 AM 05 May 2020
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="meeting d-flex">
+                    <div
+                      class="member-meet d-flex align-items-center justify-content-center"
+                    >
+                      <p class="m-0">KR</p>
+                    </div>
+                    <div
+                      class="member-meet d-flex align-items-center justify-content-center"
+                    >
+                      <p class="m-0">MJ</p>
+                    </div>
+                    <div
+                      class="member-meet d-flex align-items-center justify-content-center"
+                    >
+                      <p class="m-0">OI</p>
+                    </div>
+                    <div
+                      class="member-meet d-flex align-items-center justify-content-center"
+                    >
+                      <p class="m-0">+3</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card card-message-4" style="height: fit-content">
+                <div class="row g-0 messageFeature">
+                  <div
+                    class="col-3 d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="profileBorder d-flex align-items-center justify-content-center"
+                    >
+                      <div
+                        class="photoProfile-4 d-flex align-items-center justify-content-center"
+                      >
+                        <img src="../assets/Group 3.svg" alt="cloud" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-9 d-flex align-items-center">
+                    <div class="card-body pt-0 pb-0">
+                      <h5 class="card-title" style="font-size: 16px">
+                        Uploading Document
+                      </h5>
+                      <p class="card-text-2 mb-0" style="font-size: 12px">
+                        27,09/ 78,93 GB
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- line 3 -->
+            <div class="line-3 mb-4">
+              <div class="card card-message-4" style="width: 300px">
+                <div class="row g-0 messageFeature">
+                  <div
+                    class="col-3 d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="photoProfile-2 d-flex align-items-center justify-content-center position-relative"
+                    >
+                      <p class="m-0">AS</p>
+                      <span
+                        class="position-absolute top-0 start-100 bg-primary border border-light rounded-circle"
+                        >1
+                        <span class="visually-hidden">New alerts</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-7 d-flex align-items-center">
+                    <div class="card-body pt-0 pb-0">
+                      <h5 class="card-title" style="font-size: 16px">
+                        Amy Smith
+                      </h5>
+                      <p class="card-text-2 mb-0" style="font-size: 12px">
+                        Could please call me now? It is i…
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <p style="font-size: 10px" id="messageTime6">5:27 AM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- line 4 -->
+            <div class="line-4">
+              <div class="card">
+                <div
+                  class="profileBorder d-flex align-items-center justify-content-center"
+                >
+                  <div
+                    class="photoProfile-4 d-flex align-items-center justify-content-center"
+                  >
+                    <img src="../assets/Group 2.svg" alt="cloud" />
+                  </div>
+                </div>
+                <div class="card-body ps-0 pe-0 pb-0" style="margin-top: 10px">
+                  <p class="card-text" style="font-size: 10px">6,02/ 7,98 GB</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section C -->
+    <!-- section D -->
   </body>
 </html>
