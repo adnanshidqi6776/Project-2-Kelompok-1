@@ -1,0 +1,308 @@
+/* features 1 */
+/* top */
+.features1 {
+  margin-bottom: 150px;
+}
+
+.features1-top {
+  margin-bottom: 150px;
+  padding: 0 7.8vw;
+}
+
+.features1-img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  float: left;
+}
+
+/* top left */
+.col-topLeft {
+  justify-content: start;
+}
+
+/* top right */
+.col-topRight {
+  justify-content: end;
+}
+
+/* bottom */
+.card {
+  border: none;
+}
+
+.features1-bot {
+  padding: 0 15.6vw;
+}
+
+.col-featuresLeft {
+  background-color: #f2f6ff;
+  padding: 7.8vw 3.9vw;
+  border-radius: 50px;
+}
+
+.btn-feature {
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+
+/* message */
+.card-message {
+  padding: 1.5vw;
+  border-radius: 30px;
+  margin-bottom: 1.9vw;
+}
+
+.card-message-2 {
+  padding: 1.5vw;
+  border-radius: 30px;
+  margin: 0 1.9vw 1.9vw 1.9vw;
+}
+
+.card-message-3 {
+  padding: 1.5vw;
+  border-radius: 30px;
+  margin: 0 3.9vw 3.9vw 3.9vw;
+}
+
+.photoProfile {
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.photoProfile-2 {
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.photoProfile-3 {
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.photoProfile span {
+  font-size: 7px;
+  color: white;
+  padding: 5px 8px;
+  transform: translate(-70%, 10%);
+}
+
+.photoProfile-2 span {
+  font-size: 6px;
+  color: white;
+  padding: 4px 6px;
+  transform: translate(-70%, 10%);
+}
+
+.photoProfile-3 span {
+  font-size: 4px;
+  color: white;
+  padding: 3px 5px;
+  transform: translate(-70%, 10%);
+}
+
+.messageFeature .card-text {
+  font-size: 0.75rem;
+}
+
+.messageFeature .card-text-2 {
+  font-size: 0.6rem;
+  margin-bottom: 0;
+}
+
+.messageFeature .card-text-3 {
+  font-size: 0.5rem;
+  margin-bottom: 0;
+}
+
+.messageFeature .col-2 p {
+  font-size: 0.75rem;
+}
+
+/* features 2 */
+.features2-top {
+  margin-bottom: 100px;
+}
+
+.features2-bot {
+  margin: 0 7.8vw;
+  padding: 30px 7.8vw;
+  background-color: #f2f6ff;
+  border-radius: 40px;
+}
+
+/* left */
+.features2-bot .col-md-5 {
+  padding-right: 24px;
+  margin-bottom: 24px;
+}
+
+.card-pesan {
+  display: flex;
+  justify-content: end;
+}
+
+/* right */
+/* line-1 */
+.line-1 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.feature-file {
+  width: 75px;
+  height: 75px;
+  padding: 0;
+  background-color: white;
+  flex: none;
+  border-radius: 20px;
+}
+
+.card-message-4 {
+  padding: 1.5vw;
+  border-radius: 20px;
+  margin-right: 7.8vw;
+}
+
+/* line-2 */
+.line-2 {
+  display: flex;
+}
+
+.line-2 .card {
+  border-radius: 20px;
+  flex: none;
+}
+
+.line-2 .card:nth-child(1) {
+  margin-right: 24px;
+}
+
+.feature-cal {
+  width: 60px;
+  height: 60px;
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  border: 2px solid #234cad;
+}
+
+.member-meet {
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  margin-left: -10px;
+}
+
+.member-meet p {
+  font-size: 1em;
+}
+
+.photoProfile-4 {
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 7px;
+}
+
+/* line 4 */
+.line-4 .card {
+  padding: 30px;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+/* Resnponsive */
+@media (max-width: 768px) {
+  .features1-top {
+    padding: 0 8vw;
+  }
+
+  .col-topLeft {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .col-topRight {
+    justify-content: center;
+  }
+
+  .button-feature {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* feature layout */
+  /* left */
+  .features2-bot .col-md-5 {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .card-pesan {
+    justify-content: center;
+  }
+
+  /* right */
+  /* line 1 */
+  .line-1 {
+    display: block;
+  }
+
+  .line-1 .feature-file {
+    margin-bottom: 24px;
+    margin-left: 40%;
+  }
+
+  .line-1 .card {
+    width: fit-content;
+    margin: auto;
+  }
+
+  /* line 2 */
+  .line-2 {
+    display: block;
+  }
+
+  .line-2 .card:nth-child(1) {
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+
+  .line-2 .card:nth-child(2) {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .line-2 .card-message-4 .card-body {
+    padding-right: 0;
+  }
+
+  /* line 3 */
+  .line-3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .line-3 .card {
+    margin-right: 0;
+  }
+
+  /* line 4 */
+  .line-4 {
+    display: flex;
+    justify-content: center;
+  }
+}
